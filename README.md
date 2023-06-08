@@ -11,7 +11,7 @@ Gym-pass style app.
 - [x] Deve ser possivel o usuário buscar academias próximas num raio de ate 10km;
 - [x] Deve ser possivel o usuário buscar academias pelo nome;
 - [x] Deve ser possivel o usuário efetuar check-in em uma academia;
-- [ ] Deve ser possivel validar o check-in de um usuário
+- [x] Deve ser possivel validar o check-in de um usuário
 - [x] Deve ser possivel cadastrar uma academia
 
 # RNs (Regras de negócios)
@@ -20,11 +20,11 @@ Gym-pass style app.
 - [x] O usuário nao pode fazer 2 check-ins no mesmo dia;
 - [x] O usuário nao poder fazer check-in se nao estiver perto (100m) academia;
 - [x] o check-in so pode ser validado ate 20 minutos apos criado;
-- [ ] o check-in so pode ser validado por administradores;
-- [ ] A academia so pode ser cadastrado por administradores;
+- [x] o check-in so pode ser validado por administradores;
+- [x] A academia so pode ser cadastrado por administradores;
 
 # RNFs (requisitos não-funcionais)
 - [x] A senha do usuário tem que estar criptografada;
 - [x] Os dados da aplicação precisa estar persistido em um banco postegreSQL
 - [x] Todas listas deve estar paginadas com 20 items por pagina
-- [ ] o usuário deve ser identificado por um JWT( Json Web Token) 
+- [x] o usuário deve ser identificado por um JWT( Json Web Token) 
